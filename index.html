@@ -465,7 +465,7 @@
 
   // Active nav highlight
   const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-  const navMap = { 'index.html': 'nav-welcome', 'welcome.html': 'nav-welcome', 'our-church.html': 'nav-church', 'community.html': 'nav-community', 'watch.html': 'nav-watch', 'connect.html': 'nav-connect' };
+  const navMap = { 'index.html': 'nav-welcome', 'lvcw.html': 'nav-welcome', 'welcome.html': 'nav-welcome', 'our-church.html': 'nav-church', 'community.html': 'nav-community', 'watch.html': 'nav-watch', 'connect.html': 'nav-connect' };
   const activeNavId = navMap[currentPage];
   if (activeNavId) {
     const el = document.getElementById(activeNavId);
